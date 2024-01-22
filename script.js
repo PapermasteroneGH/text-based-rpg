@@ -1,3 +1,5 @@
+<html src="index.html"></html>
+
 let xp = 0;
 let health = 100;
 let gold = 50;
@@ -20,15 +22,15 @@ const monsterHealthText = document.querySelector("#monsterHealthText");
 const location = [
     {
         name: "town square",
-        "button text": [Fight Dragon ,Go To Cavern ,Go to Store ],
+        "button text": [FightDragon ,GoToCavern ,GotoStore ],
         "button functions": [fightDragon ,goCavern ,goStore],
         text: "You are in the town square. You see a sign that says \"Store.\""
     },
     {
-        name: "store"
-        "button text": ["Buy 10 Health (10 Gold)", "Buy weapon (30 gold)", "Go To Square"]
-        "button functions": [buyHealth, buyWeapon, goTown]
-        text: "You've enter the store."
+        name: "store",
+        "button text": ["Buy 10 Health (10 Gold)", "Buy weapon (30 gold)", "Go To Square"],
+        "button functions": [buyHealth, buyWeapon, goTown],
+        text: "You've enter the store.",
     }
 ]
 
